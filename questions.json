@@ -1,0 +1,242 @@
+  [
+  {
+    "question": "Was macht ein Sniffer?",
+    "type": "mc",
+    "options": [
+      "A) Er verschlüsselt Datenpakete automatisch, bevor sie das Netzwerk verlassen.",
+      "B) Er überwacht den Datenverkehr in einem Netzwerk und zeigt übertragene Datenpakete an.",
+      "C) Er verteilt Datenpakete gleichmäßig auf alle angeschlossenen Geräte eines Netzwerks.",
+      "D) Er ersetzt automatisch defekte Netzwerkverbindungen durch neue Routen."
+    ],
+    "answer": "B",
+    "explanation": "Ein Sniffer „hört“ den Datenverkehr in einem Netzwerk mit. Er fängt Datenpakete ab, die zwischen Geräten übertragen werden, und zeigt sie an. So kann man sehen, welche Daten durch das Netzwerk geschickt werden."
+  },
+  {
+    "question": "Was ist ein Sniffer?",
+    "type": "mc",
+    "options": [
+      "A) Ein Programm oder Gerät zur Analyse und Überwachung von Netzwerkverkehr.",
+      "B) Ein Gerät, das ausschließlich WLAN-Signale verstärkt und weiterleitet.",
+      "C) Ein Protokoll zur automatischen Vergabe von IP-Adressen im Netzwerk.",
+      "D) Ein Bauteil, das nur für die physische Verbindung von Netzwerkkabeln zuständig ist."
+    ],
+    "answer": "A",
+    "explanation": "Ein Sniffer ist ein Programm oder ein Gerät, das den Netzwerkverkehr überwacht und analysiert. Ein bekanntes Beispiel ist Wireshark. Damit kann man sich genau anschauen, welche Datenpakete gesendet und empfangen werden."
+  },
+  {
+    "question": "Wann darf man einen Sniffer benutzen?",
+    "type": "mc",
+    "options": [
+      "A) Immer dann, wenn man Zugriff auf ein öffentliches WLAN hat.",
+      "B) Nur wenn man ein Netzwerk neu einrichtet und testet.",
+      "C) Nur wenn keine anderen Geräte im Netzwerk aktiv sind.",
+      "D) Nur mit Erlaubnis, zum Beispiel im eigenen Netzwerk oder durch den Betreiber."
+    ],
+    "answer": "D",
+    "explanation": "Einen Sniffer darf man nur benutzen, wenn man die Erlaubnis dafür hat. Das ist zum Beispiel im eigenen Netzwerk erlaubt oder wenn der Netzwerkbetreiber zugestimmt hat. Ohne Erlaubnis wäre es verboten, weil man damit fremde Daten ausspähen könnte."
+  },
+  {
+    "question": "Was ist das OSI-Modell?",
+    "type": "mc",
+    "options": [
+      "A) Ein physisches Kabelsystem zur Verbindung von Computern.",
+      "B) Ein Programm zur Überwachung von Internetgeschwindigkeiten.",
+      "C) Ein Modell zur Beschreibung der Schichten der Netzwerkkommunikation.",
+      "D) Ein Sicherheitsprotokoll zur Verschlüsselung von Datenübertragungen."
+    ],
+    "answer": "C",
+    "explanation": "Das OSI-Modell ist ein Modell, das beschreibt, wie Daten in einem Netzwerk übertragen werden. Es teilt den Ablauf in mehrere Schichten ein, damit man besser verstehen kann, welche Aufgabe jeder Teil der Kommunikation hat."
+  },
+  {
+    "question": "Wie viele Schichten hat das OSI-Modell?",
+    "type": "mc",
+    "options": [
+      "A) Fünf Schichten",
+      "B) Sieben Schichten",
+      "C) Neun Schichten",
+      "D) Zwölf Schichten"
+    ],
+    "answer": "B",
+    "explanation": "Das OSI-Modell hat sieben Schichten. Jede Schicht hat eine eigene Aufgabe bei der Datenübertragung."
+  },
+  {
+    "question": "Welches aus der folgenden Auswahl ist keine Schicht im OSI-Modell?",
+    "type": "mc",
+    "options": [
+      "A) Anwendungsschicht",
+      "B) Transportschicht",
+      "C) Sicherungsschicht",
+      "D) Internet-Schicht"
+    ],
+    "answer": "D",
+    "explanation": "Eine Schicht, die nicht zum OSI-Modell gehört, ist zum Beispiel die „Internet-Schicht“. Diese gehört zum TCP/IP-Modell und nicht zum OSI-Modell."
+  },
+  {
+    "question": "Wofür steht CSMA/CD?",
+    "type": "mc",
+    "options": [
+      "A) Carrier Sense Multiple Access / Collision Detection",
+      "B) Carrier Signal Monitoring / Communication Detection",
+      "C) Control System Management / Data Control",
+      "D) Central Switching Mode / Access Distribution"
+    ],
+    "answer": "A",
+    "explanation": "CSMA/CD steht für „Carrier Sense Multiple Access / Collision Detection“."
+  },
+  {
+    "question": "Was ist CSMA/CD?",
+    "type": "mc",
+    "options": [
+      "A) Ein Verfahren zur automatischen Vergabe von IP-Adressen in Netzwerken.",
+      "B) Ein Verfahren zur gleichzeitigen Verschlüsselung und Kompression von Daten.",
+      "C) Ein Protokoll zur direkten Verbindung von zwei Computern ohne Netzwerkgerät.",
+      "D) Ein Verfahren, bei dem Geräte Kollisionen im Netzwerk erkennen und darauf reagieren."
+    ],
+    "answer": "D",
+    "explanation": "CSMA/CD ist ein Verfahren aus der Netzwerktechnik, das früher in Ethernet-Netzwerken genutzt wurde. Es sorgt dafür, dass mehrere Computer ein gemeinsames Übertragungsmedium nutzen können. Dabei hört jeder Computer zuerst, ob die Leitung frei ist. Wenn zwei Geräte gleichzeitig senden und es zu einer Kollision kommt, erkennen sie das, brechen die Übertragung ab und versuchen es nach einer kurzen Zeit erneut."
+  },
+  {
+    "question": "Wo findet man Netzwerkkarten?",
+    "type": "mc",
+    "options": [
+      "A) Netzwerkkarten findet man in allen Geräten, die sich mit einem Netzwerk verbinden können. Dazu gehören zum Beispiel Computer, Laptops, Smartphones, Tablets oder auch Spielkonsolen. Oft sind Netzwerkkarten heute schon fest in das Gerät eingebaut.",
+      "B) Netzwerkkarten findet man nur in Servern und großen Rechenzentren.",
+      "C) Netzwerkkarten findet man ausschließlich in Desktop-Computern.",
+      "D) Netzwerkkarten sind nur als externe USB-Geräte erhältlich und nicht fest verbaut."
+    ],
+    "answer": "A",
+    "explanation": "Netzwerkkarten sind in fast allen modernen Geräten eingebaut, die sich mit einem Netzwerk verbinden können."
+  },
+  {
+    "question": "Wie kann man eine Netzwerkkarte erreichen?",
+    "type": "mc",
+    "options": [
+      "A) Über die IP-Adresse des Routers",
+      "B) Über die Seriennummer des Geräts",
+      "C) Über die MAC-Adresse der Netzwerkkarte",
+      "D) Über den Hostnamen des Betriebssystems"
+    ],
+    "answer": "C",
+    "explanation": "Eine Netzwerkkarte erreicht man über ihre sogenannte MAC-Adresse. Das ist eine eindeutige Adresse, die jede Netzwerkkarte besitzt. Über diese Adresse können Daten im Netzwerk genau an das richtige Gerät geschickt werden."
+  },
+  {
+    "question": "Welche Eigenschaft aus der Liste hat eine Netzwerkkarte?",
+    "type": "mc",
+    "options": [
+      "A) Sie hat eine feste öffentliche IP-Adresse",
+      "B) Sie besitzt eine eindeutige MAC-Adresse",
+      "C) Sie führt eigenständig Programme aus",
+      "D) Sie speichert dauerhaft alle übertragenen Daten"
+    ],
+    "answer": "B",
+    "explanation": "Eine wichtige Eigenschaft einer Netzwerkkarte ist, dass sie eine eindeutige MAC-Adresse hat. Diese Adresse ist fest vergeben und sorgt dafür, dass das Gerät im Netzwerk eindeutig erkannt werden kann."
+  },
+  {
+    "question": "Welche Eigenschaften aus der Liste hat eine Netzwerkkarte nicht?",
+    "type": "mc",
+    "options": [
+      "A) Sie besitzt eine fest vergebene MAC-Adresse",
+      "B) Die IP-Adresse wird vom Netzwerk vergeben und kann sich ändern. Außerdem ist die Netzwerkkarte nicht dafür zuständig, Programme auszuführen oder Daten dauerhaft zu speichern.",
+      "C) Sie kann Daten im Netzwerk senden und empfangen",
+      "D) Sie arbeitet als Schnittstelle zwischen Gerät und Netzwerk"
+    ],
+    "answer": "B",
+    "explanation": "Eine Netzwerkkarte hat keine feste IP-Adresse und führt keine Programme aus. Diese Aufgaben liegen beim Betriebssystem bzw. dem Netzwerk."
+  },
+ {
+    "question": "Was macht eine Netzwerkkarte mit einem Datenpaket?",
+    "type": "mc",
+    "options": [
+      "A) Sie speichert Datenpakete dauerhaft im lokalen Cache des Computers, um sie bei wiederholten Anfragen ohne Netzwerkzugriff direkt auszugeben.",
+      "B) Sie blockiert fehlerhafte Fragmente auf Hardware-Ebene und leitet nur priorisierte Datenpakete an den zentralen Prozessor weiter.",
+      "C) Sie modifiziert die logischen IP-Adressen im Header, damit das Paket im lokalen Subnetz ohne die Hilfe eines Routers verteilt werden kann.",
+      "D) Sie sorgt dafür, dass Datenpakete gesendet und empfangen werden können. Beim Senden wandelt sie die Daten in elektrische oder Funksignale um. Beim Empfangen wandelt sie diese Signale wieder in Daten um."
+    ],
+    "answer": "D",
+    "explanation": "Eine Netzwerkkarte sorgt dafür, dass Datenpakete gesendet und empfangen werden können. Beim Senden wandelt sie die Daten in elektrische oder Funksignale um, die über das Netzwerk übertragen werden. Beim Empfangen wandelt sie diese Signale wieder in Daten um und gibt sie an das Betriebssystem weiter."
+  },
+  {
+    "question": "Was tut eine Netzwerkkarte, wenn sie ein Datenpaket erhält, das nicht für sie bestimmt ist?",
+    "type": "mc",
+    "options": [
+      "A) Sie speichert das Datenpaket in einem temporären Puffer und wartet auf ein Kontrollsignal des Routers zur nachträglichen Verarbeitung.",
+      "B) Sie leitet das Datenpaket automatisch an das Standard-Gateway weiter, um eine Schleifenbildung im lokalen Netzwerk zu verhindern.",
+      "C) Wenn eine Netzwerkkarte ein Datenpaket erhält, das nicht an ihre eigene MAC-Adresse adressiert ist, verwirft sie dieses Paket. Das bedeutet, sie ignoriert es einfach.",
+      "D) Sie verändert die Zieladresse im Ethernet-Header eigenständig und sendet das Paket als neuen Broadcast zurück ins lokale Netzwerk."
+    ],
+    "answer": "C",
+    "explanation": "Wenn eine Netzwerkkarte ein Datenpaket erhält, das nicht an ihre eigene MAC-Adresse adressiert ist, verwirft sie dieses Paket. Das bedeutet, sie ignoriert es und leitet es nicht weiter."
+  },
+  {
+    "question": "Was ist ein Switch?",
+    "type": "mc",
+    "options": [
+      "A) Ein Gerät zur drahtlosen Verstärkung von WLAN-Signalen, das die Reichweite von Funknetzen durch Signal-Spiegelung in Gebäuden erhöht.",
+      "B) Ein Switch ist ein Gerät in einem Netzwerk, das mehrere Geräte miteinander verbindet. Er merkt sich, welche MAC-Adresse an welchem Anschluss hängt, und leitet Daten gezielt weiter.",
+      "C) Ein softwarebasiertes Verwaltungsprogramm, das IP-Adressen innerhalb eines lokalen Netzwerks dynamisch verteilt und überwacht.",
+      "D) Ein physisches Spezialkabel mit integriertem Signalverstärker, das zur direkten Kopplung von zwei entfernten Rechenzentren dient."
+    ],
+    "answer": "B",
+    "explanation": "Ein Switch ist ein Gerät in einem Netzwerk, das mehrere Geräte miteinander verbindet. Er merkt sich, welche MAC-Adresse an welchem Anschluss hängt, und leitet Datenpakete gezielt nur an den richtigen Empfänger weiter. Dadurch wird das Netzwerk schneller und effizienter."
+  },
+  {
+    "question": "Wofür benutzt man einen Switch?",
+    "type": "mc",
+    "options": [
+      "A) Um Netzwerkgeräte ohne physikalische Schnittstellen über virtuelle Cloud-Kanäle sicher im Internet miteinander zu verbinden.",
+      "B) Um die Internetgeschwindigkeit des Providers durch parallele Datenströme auf Hardware-Ebene vollautomatisch zu verdoppeln.",
+      "C) Um IP-Adressen im lokalen Netzwerk zu vergeben und den Datenverkehr mithilfe von Routing-Tabellen weltweit zu verteilen.",
+      "D) Einen Switch benutzt man, um mehrere Geräte in einem Netzwerk miteinander zu verbinden. Er sorgt dafür, dass Datenpakete gezielt nur an das richtige Gerät weitergeleitet werden."
+    ],
+    "answer": "D",
+    "explanation": "Einen Switch benutzt man, um mehrere Geräte in einem Netzwerk miteinander zu verbinden. Er sorgt dafür, dass Datenpakete gezielt nur an das richtige Gerät weitergeleitet werden und nicht an alle Geräte gleichzeitig. Dadurch wird das Netzwerk schneller und effizienter."
+  },
+  {
+    "question": "Was ist der Unterschied zwischen einem managed und einem un-managed Switch?",
+    "type": "mc",
+    "options": [
+      "A) Ein unmanaged Switch arbeitet automatisch ohne Einstellungen (Plug and Play). Ein managed Switch kann dagegen konfiguriert werden, um beispielsweise den Zugriff zu steuern oder VLANs einzurichten.",
+      "B) Ein managed Switch benötigt eine permanente Verbindung zu einem externen Cloud-Server, während ein unmanaged Switch komplett ohne Stromversorgung arbeitet.",
+      "C) Ein unmanaged Switch filtert Datenpakete auf Layer 3 und ist dadurch bei der Übertragung von Multimedia-Streams immer deutlich schneller als ein managed Switch.",
+      "D) Beide Switch-Typen sind technisch absolut identisch und unterscheiden sich lediglich in der Gehäusebauform sowie der Anzahl der physisch verfügbaren Ports."
+    ],
+    "answer": "A",
+    "explanation": "Ein unmanaged Switch arbeitet automatisch und ohne Einstellungen. Man steckt die Geräte ein und er funktioniert sofort. Ein managed Switch kann dagegen konfiguriert werden. Man kann zum Beispiel einstellen, welche Geräte miteinander kommunizieren dürfen oder VLANs einrichten. Dadurch hat man mehr Kontrolle über das Netzwerk."
+  },
+  {
+    "question": "Gehört ein Switch zum OSI-Modell?",
+    "type": "mc",
+    "options": [
+      "A) Ja, er ist ein fester Bestandteil der Anwendungsschicht (Schicht 7), da er direkt mit den Netzwerkprogrammen der Endbenutzer kommuniziert.",
+      "B) Ja, er gehört zur Transportschicht (Schicht 4), weil er Segmente mithilfe von TCP- und UDP-Portnummern im Netzwerk verteilt.",
+      "C) Ja, er ist der Darstellungsschicht (Schicht 6) zuzuordnen, da er Datenströme für die physikalische Übertragung codiert und verschlüsselt.",
+      "D) Ein Switch ist kein Bestandteil des OSI-Modells selbst. Das OSI-Modell ist ein theoretisches Modell, das beschreibt, wie Kommunikation funktioniert. Ein Switch ist ein echtes Gerät."
+    ],
+    "answer": "D",
+    "explanation": "Ein Switch ist kein Bestandteil des OSI-Modells selbst. Das OSI-Modell ist ein theoretisches Modell, das beschreibt, wie Netzwerkkommunikation funktioniert. Ein Switch ist ein echtes Gerät, das in einem Netzwerk verwendet wird."
+  },
+  {
+    "question": "Gehört ein un-managed Switch zu einer Schicht im OSI-Modell?",
+    "type": "mc",
+    "options": [
+      "A) Ein unmanaged Switch arbeitet auf der Sicherungsschicht, also Schicht 2 des OSI-Modells. Dort werden MAC-Adressen verwendet, um Daten an die richtigen Geräte weiterzuleiten.",
+      "B) Ja, er arbeitet auf der Anwendungsschicht (Schicht 7), um Webseiten-Inhalte und Dateiübertragungen direkt vor der Weiterleitung zu analysieren.",
+      "C) Ja, er arbeitet ausschließlich auf der physikalischen Schicht (Schicht 1), da er Signale nur elektrisch verstärkt und keine Adressen auslesen kann.",
+      "D) Nein, da es sich um ein unkonfiguriertes Gerät handelt, hat er im Gegensatz zu managed Switches überhaupt keine Verbindung zum OSI-Modell."
+    ],
+    "answer": "A",
+    "explanation": "Ein unmanaged Switch arbeitet auf der Sicherungsschicht, also Schicht 2 des OSI-Modells. Dort werden MAC-Adressen verwendet, um Daten an die richtigen Geräte weiterzuleiten."
+  },
+  {
+    "question": "Wie sind IP-Adressen aufgebaut?",
+    "type": "mc",
+    "options": [
+      "A) Aus zwei großen Zahlenblöcken, die durch Kommas getrennt sind und den Ländercode sowie die Postleitzahl des Geräte-Standorts codieren.",
+      "B) IP-Adressen bestehen aus Zahlenblöcken. Bei einer IPv4-Adresse sind es vier Zahlen, die durch Punkte getrennt sind (z. B. 192.168.0.1). Jede Zahl kann einen Wert von 0 bis 255 haben.",
+      "C) Aus einer rein zufälligen Kombination von Buchstaben und Sonderzeichen, die sich bei jedem Neustart des Geräts vollständig verändert.",
+      "D) Aus einer fortlaufenden Seriennummer, die weltweit vom Hersteller der Netzwerkkarte fest im Speicher des Geräts hinterlegt wird."
+    ],
+    "answer": "B",
+    "explanation": "IP-Adressen bestehen aus Zahlenblöcken. Bei einer IPv4-Adresse sind es vier Zahlen, die durch Punkte getrennt sind, zum Beispiel 192.168.0.1. Jede dieser Zahlen kann einen Wert von 0 bis 255 haben."
+  }
+]
